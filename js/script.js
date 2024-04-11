@@ -1,0 +1,2 @@
+//CONTROLLO CONNESSIONE
+alert("hola!");
