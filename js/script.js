@@ -30,3 +30,6 @@ const teamMembers = [
         foto: 'barbara-ramos-graphic-designer.jpg'
     }
 ];
+
+// Stampo i dati in console del team
+printTeam(teamMembers);
