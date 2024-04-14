@@ -20,11 +20,10 @@ function printTeam(teamToPrint) {
         // INSERISCO LA CARD TRAMITE innerHTML
         colElem.innerHTML = `
             <div class="card">
-                <img src="./img/" class="card-img-top">
+                <img src="./img/${curMember.foto}" class="card-img-top">
                 <div class="card-body">
                     <h5 class="card-title">${curMember.nome}</h5>
                     <p class="card-text">${curMember.ruolo}</p>
-                    <p class="card-text">${curMember.foto}</p>
                 </div>
             </div>
         `;
